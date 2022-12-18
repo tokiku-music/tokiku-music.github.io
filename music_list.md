@@ -1,6 +1,6 @@
 layout: page
 title: "Music List"
-permalink: https://tokikumusic.github.io/music
+permalink: https://tokiku-music.github.io/music
 
 
 testing
