@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "tokiku-music.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-youtube_username: Tokiku
+youtube_username: Tokiku_
 
 # Build settings
 theme: minima
