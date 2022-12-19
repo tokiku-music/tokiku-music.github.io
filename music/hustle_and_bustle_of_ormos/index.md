@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: song_page
 title: "Hustle and Bustle of Ormos"
 permalink: /music/hustle_and_bustle_of_ormos
 categories: Genshin Impact

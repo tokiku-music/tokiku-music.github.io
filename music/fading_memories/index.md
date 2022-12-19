@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: song_page
 title: "Fading Memories"
 permalink: /music/fading_memories
 categories: Genshin Impact
