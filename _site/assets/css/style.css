@@ -326,9 +326,13 @@ table td { border: 1px solid var(--minima-table-border-color); }
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
 /** Multiple columns */
-.column { float: left; padding: 0px 5px 0px 5px; width: 47%; }
+.column { float: left; padding: 0px 10px 0px 5px; width: 40%; }
 
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }
+
+.brand-image { padding: 0px 10px 5px 0px; height: 1em; }
+
+.site-title:hover { color: var(--minima-link-hover-color); text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

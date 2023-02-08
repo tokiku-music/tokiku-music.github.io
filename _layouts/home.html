@@ -18,7 +18,7 @@ layout: default
       {% for p in site.pages %}
         {% if p.resource == true %}
           {% if p.title == page.popular %}
-            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px black solid;">
+            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
             </a>
           {% endif %}
         {% endif %}
@@ -30,7 +30,7 @@ layout: default
       {% for p in site.pages %}
         {% if p.resource == true %}
           {% if p.title == page.recent %}
-            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px black solid;">
+            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
             </a>
           {% endif %}
         {% endif %}

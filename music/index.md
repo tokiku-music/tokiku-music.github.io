@@ -5,10 +5,9 @@ permalink: /music/
 ---
 
 <div>
-  <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a>.
+  <p>All music pages available on this site are listed alphabetically below.
   </p>
-  <p>Songs are listed alphabetically.
-  </p>
+  
 </div>
 
 <div>

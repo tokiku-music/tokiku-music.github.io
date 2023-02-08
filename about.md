@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm just a regular internet-using human who happens to enjoy video games and music. I created this website to share my personal music arrangements with others who might find them useful.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I have the most experience with piano (which is consequently what I'm most comfortable making arrangements for), but I have also played various string and woodwind instruments as well. I may branch outside of piano arrangements eventually, especially if there's high enough demand, but for now piano is my instrument of focus.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Feel free to visit my [YouTube page](https://youtube.com/@Tokiku_) for Synthesia-type tutorial videos, or message me there if you want to contact me for any reason.
 
+Enjoy!
 
-[jekyll-organization]: https://github.com/jekyll
+-Tokiku

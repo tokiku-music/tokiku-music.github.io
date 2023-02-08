@@ -6,8 +6,8 @@
  */
 .column {
   float: left;
-  padding: 0px 5px 0px 5px;
-  width: 47%;
+  padding: 0px 10px 0px 5px;
+  width: 40%;
 
 }
 
@@ -16,4 +16,17 @@
   content: "";
   display: table;
   clear: both;
+}
+
+//Site title
+.brand-image {
+  padding: 0px 10px 5px 0px;
+  height: 1em
+}
+
+.site-title{
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
 }

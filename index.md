@@ -14,7 +14,8 @@ recent: "Fading Memories"
 <body>
 
   <div>
-    <p> Welcome! Feel free to explore as you wish. </p>
+    <p>Welcome to my sheet music library!</p>
+    <p>All sheet music and sound files are free to download.</p>
   </div>
 
    
