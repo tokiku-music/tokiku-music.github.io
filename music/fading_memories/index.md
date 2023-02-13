@@ -9,7 +9,7 @@ file_name: fading_memories
 video_link: "https://youtu.be/2CgTbjN5T2c"
 ---
 
-A nostalgic yet hopeful theme from Tsurumi Island in Inazuma.
+One of my favorite themes from Tsurumi Island in Inazuma.
 
 
 
