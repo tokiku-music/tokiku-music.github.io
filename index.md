@@ -8,8 +8,9 @@
 layout: home
 title: Home
 
-popular: "Hustle and Bustle of Ormos"
-recent: "Fading Memories"
+featured: "Hustle and Bustle of Ormos"
+recent: "Bane of Ambitions"
+
 ---
 <body>
 

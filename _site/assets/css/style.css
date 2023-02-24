@@ -326,7 +326,7 @@ table td { border: 1px solid var(--minima-table-border-color); }
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
 /** Multiple columns */
-.column { float: left; padding: 0px 10px 0px 5px; width: 40%; }
+.column { float: left; padding: 0px 20px 0px 5px; width: 40%; }
 
 /* Clear floats after the columns */
 .row:after { content: ""; display: table; clear: both; }

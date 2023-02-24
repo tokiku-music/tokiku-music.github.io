@@ -12,12 +12,12 @@ layout: default
   <!-- display featured songs on home page -->
 
   <div class="row:after">
-  
+
     <div class="column">
-      <h2> Popular </h2>
+      <h2> Featured </h2>
       {% for p in site.pages %}
         {% if p.resource == true %}
-          {% if p.title == page.popular %}
+          {% if p.title == page.featured %}
             <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
             </a>
           {% endif %}
