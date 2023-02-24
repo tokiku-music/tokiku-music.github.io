@@ -12,10 +12,12 @@ permalink: /music/
 
 <div>
 
-  {% for cat in site.category_list %}
+  {% assign sortedCats = site.category_list | sort: 'title' %}
+  {% assign sortedPages = site.pages | sort: 'title' %}
+  {% for cat in sortedCats %}
   <h4> {{ cat }} </h4>
-  <ul>
-    {% for page in site.pages %}
+  <ul id="music-list">
+    {% for page in sortedPages %}
       {% if page.resource == true %}
         {% for pc in page.categories %}
           {% if pc == cat %}
@@ -28,4 +30,5 @@ permalink: /music/
   {% endfor %}  <!-- cat -->
     
 </div>
+
 
