@@ -9,7 +9,7 @@ layout: home
 title: Home
 
 featured: "Hustle and Bustle of Ormos"
-recent: "Bane of Ambitions"
+recent: "Halcyon Times"
 
 ---
 <body>
