@@ -8,8 +8,8 @@
 layout: home
 title: Home
 
-featured: "Hustle and Bustle of Ormos"
-recent: "Halcyon Times"
+featured: "Halcyon Times"
+recent: "Thunderings of the Merciless"
 
 ---
 <body>
