@@ -6,7 +6,7 @@ categories: Genshin Impact
 resource: true
 
 file_name: thunderings_of_the_merciless
-video_link: "https://youtu.be/V20FEDfCQFQ"
+video_link: "https://youtu.be/UphnGUqnlr8"
 ---
 
 The main theme for the Raiden Shogun boss fight. This one definitely requires some stamina.
