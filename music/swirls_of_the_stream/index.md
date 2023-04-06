@@ -10,4 +10,4 @@ file_name: swirls_of_the_stream
 video_link: "https://youtu.be/vAQQhirsLKA"
 ---
 
-One of the Sumeru forest battle themes. This one goes pretty fast, but it's so worth it for how fun it is.
+One of the Sumeru forest battle themes. This one goes pretty fast, but it's worth it for how fun it is.
