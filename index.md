@@ -8,8 +8,8 @@
 layout: home
 title: Home
 
-featured: "Halcyon Times"
-recent: "Thunderings of the Merciless"
+# featured: "Halcyon Times" <--optional for specific featured page
+# recent: "Swirls of the Stream" <-- optional for specific recent page
 
 ---
 <body>

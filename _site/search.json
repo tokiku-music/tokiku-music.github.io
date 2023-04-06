@@ -1,0 +1,143 @@
+[
+    
+        {
+        "title"    : "",
+        "href"     : "/404.html",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "About",
+        "href"     : "/about/",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "Bane of Ambitions",
+        "href"     : "/music/bane_of_ambitions",
+        "filename" : "bane_of_ambitions",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-02-23"
+        }
+    ,
+    
+        {
+        "title"    : "Fading Memories",
+        "href"     : "/music/fading_memories",
+        "filename" : "fading_memories",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-02-12"
+        }
+    ,
+    
+        {
+        "title"    : "Halcyon Times",
+        "href"     : "/music/halcyon_times",
+        "filename" : "halcyon_times",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-03-09"
+        }
+    ,
+    
+        {
+        "title"    : "Hustle and Bustle of Ormos",
+        "href"     : "/music/hustle_and_bustle_of_ormos",
+        "filename" : "hustle_and_bustle_of_ormos",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-02-13"
+        }
+    ,
+    
+        {
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "Thunderings of the Merciless",
+        "href"     : "/music/thunderings_of_the_merciless",
+        "filename" : "thunderings_of_the_merciless",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-03-23"
+        }
+    ,
+    
+        {
+        "title"    : "All Music",
+        "href"     : "/music/",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "Swirls of the Stream",
+        "href"     : "/music/swirls_of_the_stream",
+        "filename" : "swirls_of_the_stream",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-04-06"
+        }
+    ,
+    
+        {
+        "title"    : "",
+        "href"     : "/assets/minima-social-icons.svg",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "",
+        "href"     : "/search.json",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "",
+        "href"     : "/assets/css/style.css",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    ,
+    
+        {
+        "title"    : "",
+        "href"     : "/feed.xml",
+        "filename" : "",
+        "resource" : "",
+        "new"      : "",
+        "date"     : ""
+        }
+    
+    
+]

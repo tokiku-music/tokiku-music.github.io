@@ -4,6 +4,7 @@ title: "Fading Memories"
 permalink: /music/fading_memories
 categories: Genshin Impact
 resource: true
+date: 2023-02-12
 
 file_name: fading_memories
 video_link: "https://youtu.be/2CgTbjN5T2c"

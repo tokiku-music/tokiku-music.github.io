@@ -4,6 +4,7 @@ title: "Thunderings of the Merciless"
 permalink: /music/thunderings_of_the_merciless
 categories: Genshin Impact
 resource: true
+date: 2023-03-23
 
 file_name: thunderings_of_the_merciless
 video_link: "https://youtu.be/UphnGUqnlr8"

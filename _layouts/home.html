@@ -15,79 +15,43 @@ layout: default
 
     <div class="column">
       <h2> Featured </h2>
-      {% for p in site.pages %}
+      <div id="random_posts">
+      </div>
+      <!-- {% for p in site.pages %}
         {% if p.resource == true %}
           {% if p.title == page.featured %}
             <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
             </a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
     </div>
     
     <div class="column">
       <h2> Recent </h2>
-      {% for p in site.pages %}
+      <div id="newest_posts">
+      </div>
+      <!-- {% for p in site.pages %}
         {% if p.resource == true %}
           {% if p.title == page.recent %}
             <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
             </a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
+      
+      <!-- {% assign sortedNew = site.pages | sort: 'date' %}
+      {% for p in sortedNew %}
+        {% if p.resource == true %}
+          {% if p.title == page.recent %}
+            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %} -->
     </div>
     
   </div>
 
-
-<!-- old version (blog style)
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
--->
 
 </div>

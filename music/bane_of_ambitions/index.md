@@ -4,6 +4,7 @@ title: "Bane of Ambitions"
 permalink: /music/bane_of_ambitions
 categories: Genshin Impact
 resource: true
+date: 2023-02-23
 
 file_name: bane_of_ambitions
 video_link: "https://youtu.be/C_pqhp3X_AA"
