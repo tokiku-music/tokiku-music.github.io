@@ -10,4 +10,4 @@ file_name: hustle_and_bustle_of_ormos
 video_link: "https://youtu.be/is2YcPVk6iU"
 ---
 
-One of the two daytime themes for Port Ormos in Sumeru. Arguably one of the best songs in the entire game.
+One of the two daytime themes for Port Ormos in Sumeru. Arguably one of the best songs in the game.
