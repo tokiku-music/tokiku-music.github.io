@@ -21,6 +21,16 @@
     ,
     
         {
+        "title"    : "Baizhu: Curing the Root Cause",
+        "href"     : "/music/baizhu_curing_the_root_cause",
+        "filename" : "baizhu_curing_the_root_cause",
+        "resource" : "true",
+        "new"      : "",
+        "date"     : "2023-05-18"
+        }
+    ,
+    
+        {
         "title"    : "Bane of Ambitions",
         "href"     : "/music/bane_of_ambitions",
         "filename" : "bane_of_ambitions",
@@ -71,12 +81,12 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
+        "title"    : "Swirls of the Stream",
+        "href"     : "/music/swirls_of_the_stream",
+        "filename" : "swirls_of_the_stream",
+        "resource" : "true",
         "new"      : "",
-        "date"     : ""
+        "date"     : "2023-04-06"
         }
     ,
     
@@ -111,12 +121,12 @@
     ,
     
         {
-        "title"    : "Swirls of the Stream",
-        "href"     : "/music/swirls_of_the_stream",
-        "filename" : "swirls_of_the_stream",
-        "resource" : "true",
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
         "new"      : "",
-        "date"     : "2023-04-06"
+        "date"     : ""
         }
     ,
     
