@@ -1117,8 +1117,8 @@
   --dropdown-btn-border: none;
   --separator-color: rgba(0, 0, 0, 0.3);
   --field-color: rgba(6, 6, 6, 1);
-  --field-bg-color: rgba(255, 255, 255, 1);
-  --field-border-color: rgba(187, 187, 188, 1);
+  --field-bg-color: rgb(227, 227, 227);
+  --field-border-color: rgb(150, 150, 150);
   --treeitem-color: rgba(0, 0, 0, 0.8);
   --treeitem-bg-color: rgba(0, 0, 0, 0.15);
   --treeitem-hover-color: rgba(0, 0, 0, 0.9);
@@ -2180,7 +2180,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"] {
 }
 
 .toolbarField {
-  padding: 4px 7px;
+  padding: 3px 6px;
   margin: 3px 0;
   border-radius: 2px;
   background-color: var(--field-bg-color);
@@ -2204,6 +2204,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"] {
 
 #pageNumber {
   -moz-appearance: textfield; /* hides the spinner in moz */
+  appearance: textfield;
   text-align: end;
   width: 20px;
   background-size: 0 0;
