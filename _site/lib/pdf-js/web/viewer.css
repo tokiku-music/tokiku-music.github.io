@@ -2180,8 +2180,8 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"] {
 }
 
 .toolbarField {
-  padding: 3px 6px;
-  margin: 3px 0;
+  padding: 1px 6px;
+  margin: 5px 0;
   border-radius: 2px;
   background-color: var(--field-bg-color);
   background-clip: padding-box;
@@ -2206,7 +2206,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"] {
   -moz-appearance: textfield; /* hides the spinner in moz */
   appearance: textfield;
   text-align: end;
-  width: 20px;
+  width: 18px;
   background-size: 0 0;
   transition-property: none;
 }
