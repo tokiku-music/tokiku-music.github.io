@@ -12027,6 +12027,9 @@ class Toolbar {
       element: options.zoomOut,
       eventName: "zoomout"
     }, {
+      element: options.zoomReset,
+      eventName: "zoomreset"
+    }, {
       element: options.print,
       eventName: "print"
     }, {
@@ -12067,7 +12070,8 @@ class Toolbar {
       previous: options.previous,
       next: options.next,
       zoomIn: options.zoomIn,
-      zoomOut: options.zoomOut
+      zoomOut: options.zoomOut,
+      zoomReset: options.zoomReset
     };
     this.#bindListeners(options);
     this.reset();
@@ -13740,6 +13744,7 @@ function getViewerConfiguration() {
       next: document.getElementById("next"),
       zoomIn: document.getElementById("zoomIn"),
       zoomOut: document.getElementById("zoomOut"),
+      zoomReset: document.getElementById("zoomReset"),
       viewFind: document.getElementById("viewFind"),
       openFile: document.getElementById("openFile"),
       print: document.getElementById("print"),
