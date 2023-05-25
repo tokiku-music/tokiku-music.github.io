@@ -15,6 +15,8 @@
 <meta name="theme-color" content="#ffffff">
 
 <!--random page generator-->
+<!-- {% assign today = site.time %} -->
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <script type="text/javascript">
@@ -23,7 +25,8 @@
       $.getJSON("/search.json", function(data) {
           console.log("[search.json loaded for homepage posts]");
 
-          let today = new Date().toISOString().slice(0, 10)
+          // let today = new Date().toISOString().slice(0, 10)
+          var today = '{{ site.time }}'
           let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest

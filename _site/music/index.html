@@ -9,14 +9,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An archive of all the free music resources created by Tokiku." />
 <meta property="og:description" content="An archive of all the free music resources created by Tokiku." />
+<link rel="canonical" href="http://localhost:4000/music/" />
+<meta property="og:url" content="http://localhost:4000/music/" />
 <meta property="og:site_name" content="Tokiku Music" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="All Music" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"An archive of all the free music resources created by Tokiku.","headline":"All Music","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/favicon.ico"}},"url":"/music/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"An archive of all the free music resources created by Tokiku.","headline":"All Music","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/favicon.ico"}},"url":"http://localhost:4000/music/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tokiku Music" />
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tokiku Music" />
 
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,6 +30,8 @@
 <meta name="theme-color" content="#ffffff">
 
 <!--random page generator-->
+<!--  -->
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <script type="text/javascript">
@@ -36,7 +40,8 @@
       $.getJSON("/search.json", function(data) {
           console.log("[search.json loaded for homepage posts]");
 
-          let today = new Date().toISOString().slice(0, 10)
+          // let today = new Date().toISOString().slice(0, 10)
+          var today = '2023-05-25 03:31:28 -0700'
           let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
@@ -214,6 +219,12 @@
       
         
             
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
               
                 <li><a href="/music/swirls_of_the_stream">Swirls of the Stream</a></li>
                  <!-- cat-match-p -->
@@ -232,6 +243,73 @@
             
               
                 <li><a href="/music/vestige_of_dahri">Vestige of Dahri</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+        <!-- page -->
+    </ul>
+  
+    <h4> Honkai: Star Rail </h4>
+    <ul id="music-list">
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+              
+                <li><a href="/music/star_rail">Star Rail</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+      
+        
+            
                  <!-- cat-match-p -->
               <!-- page-category -->
            <!-- resource-p -->
