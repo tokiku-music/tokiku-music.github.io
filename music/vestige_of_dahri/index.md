@@ -2,9 +2,9 @@
 layout: song_page
 title: "Vestige of Dahri"
 permalink: /music/vestige_of_dahri
-categories: Genshin Impact
+categories: "Genshin Impact"
 resource: true
-date: 2023-04-20
+date: 2023-04-20 00:00:00 -0700
 
 file_name: vestige_of_dahri
 video_link: "https://youtu.be/MQtlfz0jR04"

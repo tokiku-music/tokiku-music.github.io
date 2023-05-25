@@ -38,7 +38,8 @@
       $.getJSON("/search.json", function(data) {
           console.log("[search.json loaded for homepage posts]");
 
-          let data_set = data.filter(data => data.resource == "true");
+          let today = new Date().toISOString().slice(0, 10)
+          let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
           data_set.sort((a, b) => {
@@ -161,98 +162,83 @@
   
   
   
-  <h4> Genshin Impact </h4>
-  <ul id="music-list">
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
+  
+    <h4> Genshin Impact </h4>
+    <ul id="music-list">
       
         
-          
-            <li><a href="/music/baizhu_curing_the_root_cause">Baizhu: Curing the Root Cause</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/baizhu_curing_the_root_cause">Baizhu: Curing the Root Cause</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/bane_of_ambitions">Bane of Ambitions</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/bane_of_ambitions">Bane of Ambitions</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/fading_memories">Fading Memories</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/fading_memories">Fading Memories</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/halcyon_times">Halcyon Times</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/halcyon_times">Halcyon Times</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/hustle_and_bustle_of_ormos">Hustle and Bustle of Ormos</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/hustle_and_bustle_of_ormos">Hustle and Bustle of Ormos</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/peaceful_hike">Peaceful Hike</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/peaceful_hike">Peaceful Hike</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/swirls_of_the_stream">Swirls of the Stream</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/swirls_of_the_stream">Swirls of the Stream</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/thunderings_of_the_merciless">Thunderings of the Merciless</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-    
+            
+              
+                <li><a href="/music/thunderings_of_the_merciless">Thunderings of the Merciless</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
       
         
-          
-            <li><a href="/music/vestige_of_dahri">Vestige of Dahri</a></li>
-             <!-- cat-match-p -->
-          <!-- page-category -->
-         <!-- resource-p -->
-      <!-- page -->
-  </ul>
+            
+              
+                <li><a href="/music/vestige_of_dahri">Vestige of Dahri</a></li>
+                 <!-- cat-match-p -->
+              <!-- page-category -->
+           <!-- resource-p -->
+        <!-- page -->
+    </ul>
     <!-- cat -->
     
 </div>

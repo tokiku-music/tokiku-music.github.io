@@ -2,9 +2,9 @@
 layout: song_page
 title: "Halcyon Times"
 permalink: /music/halcyon_times
-categories: Genshin Impact
+categories: "Genshin Impact"
 resource: true
-date: 2023-03-09
+date: 2023-03-09 00:00:00 -0700
 
 file_name: halcyon_times
 video_link: "https://youtu.be/GYZ3FqUsIoA"

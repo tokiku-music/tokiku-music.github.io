@@ -39,7 +39,8 @@
       $.getJSON("/search.json", function(data) {
           console.log("[search.json loaded for homepage posts]");
 
-          let data_set = data.filter(data => data.resource == "true");
+          let today = new Date().toISOString().slice(0, 10)
+          let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
           data_set.sort((a, b) => {

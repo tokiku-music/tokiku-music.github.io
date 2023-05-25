@@ -5,7 +5,6 @@
         "href"     : "/404.html",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -15,7 +14,6 @@
         "href"     : "/about/",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -25,8 +23,7 @@
         "href"     : "/music/baizhu_curing_the_root_cause",
         "filename" : "baizhu_curing_the_root_cause",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-05-18"
+        "date"     : "2023-05-18 00:00:00 -0700"
         }
     ,
     
@@ -35,8 +32,7 @@
         "href"     : "/music/bane_of_ambitions",
         "filename" : "bane_of_ambitions",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-02-23"
+        "date"     : "2023-02-23 00:00:00 -0700"
         }
     ,
     
@@ -45,8 +41,7 @@
         "href"     : "/music/fading_memories",
         "filename" : "fading_memories",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-02-12"
+        "date"     : "2023-02-12 00:00:00 -0700"
         }
     ,
     
@@ -55,8 +50,7 @@
         "href"     : "/music/halcyon_times",
         "filename" : "halcyon_times",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-03-09"
+        "date"     : "2023-03-09 00:00:00 -0700"
         }
     ,
     
@@ -65,8 +59,7 @@
         "href"     : "/music/hustle_and_bustle_of_ormos",
         "filename" : "hustle_and_bustle_of_ormos",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-02-13"
+        "date"     : "2023-02-13 00:00:00 -0700"
         }
     ,
     
@@ -75,8 +68,7 @@
         "href"     : "/music/peaceful_hike",
         "filename" : "peaceful_hike",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-05-04"
+        "date"     : "2023-05-04 00:00:00 -0700"
         }
     ,
     
@@ -85,8 +77,7 @@
         "href"     : "/music/swirls_of_the_stream",
         "filename" : "swirls_of_the_stream",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-04-06"
+        "date"     : "2023-04-06 00:00:00 -0700"
         }
     ,
     
@@ -95,8 +86,7 @@
         "href"     : "/music/thunderings_of_the_merciless",
         "filename" : "thunderings_of_the_merciless",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-03-23"
+        "date"     : "2023-03-23 00:00:00 -0700"
         }
     ,
     
@@ -105,8 +95,7 @@
         "href"     : "/music/vestige_of_dahri",
         "filename" : "vestige_of_dahri",
         "resource" : "true",
-        "new"      : "",
-        "date"     : "2023-04-20"
+        "date"     : "2023-04-20 00:00:00 -0700"
         }
     ,
     
@@ -115,7 +104,6 @@
         "href"     : "/music/",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -125,7 +113,6 @@
         "href"     : "/",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -135,7 +122,6 @@
         "href"     : "/assets/minima-social-icons.svg",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -145,7 +131,6 @@
         "href"     : "/search.json",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -155,7 +140,6 @@
         "href"     : "/assets/css/style.css",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     ,
@@ -165,7 +149,6 @@
         "href"     : "/feed.xml",
         "filename" : "",
         "resource" : "",
-        "new"      : "",
         "date"     : ""
         }
     

@@ -7,7 +7,6 @@
         "href"     : "{{ p.url }}",
         "filename" : "{{ p.file_name }}",
         "resource" : "{{ p.resource }}",
-        "new"      : "{{ p.new }}",
         "date"     : "{{ p.date }}"
         }
     {% unless forloop.last %},{% endunless %}

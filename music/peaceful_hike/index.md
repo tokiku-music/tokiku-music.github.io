@@ -2,9 +2,9 @@
 layout: song_page
 title: "Peaceful Hike"
 permalink: /music/peaceful_hike
-categories: Genshin Impact
+categories: "Genshin Impact"
 resource: true
-date: 2023-05-04
+date: 2023-05-04 00:00:00 -0700
 
 file_name: peaceful_hike
 video_link: "https://youtu.be/EdeIBl_Non0"
