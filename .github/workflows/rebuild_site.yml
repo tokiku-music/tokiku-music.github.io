@@ -3,7 +3,7 @@ name: Rebuild Site
 on:
   schedule:
     # - cron: '0 1 * * *' # rebuild at 01:00 every day
-    - cron: '*/5' * * * *' # rebuild every 5 minutes every day
+    - cron: '*/5 * * * *' # rebuild every 5 minutes every day
 
 jobs:
   build:
