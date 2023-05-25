@@ -12,7 +12,7 @@ google_analytics: "G-91FTL9QPJV"
 
 show_excerpts: false # set to true to show excerpts on the homepage
 future: false # restrict publication of future posts
-category_list: ["Genshin Impact"] #, "Honkai: Star Rail"]
+category_list: ["Genshin Impact", "Honkai: Star Rail"]
 collections:
   music:
     # output: true
