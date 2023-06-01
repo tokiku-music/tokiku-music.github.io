@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron: '0 9 * * *' # rebuild at 02:00 UTC-0700 every day
+    - cron: '0 8 * * *' # rebuild at 01:00 UTC-0700 every day
   
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
