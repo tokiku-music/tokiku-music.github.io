@@ -10,4 +10,4 @@ file_name: star_rail
 video_link: "https://youtu.be/C4wJ2sFDEV0"
 ---
 
-The main theme for Honkai: Star Rail.
+The login menu theme for Honkai: Star Rail.
