@@ -37,6 +37,15 @@
     ,
     
         {
+        "title"    : "Embers",
+        "href"     : "/music/embers",
+        "filename" : "embers",
+        "resource" : "true",
+        "date"     : "2023-06-08 00:00:00 -0700"
+        }
+    ,
+    
+        {
         "title"    : "Fading Memories",
         "href"     : "/music/fading_memories",
         "filename" : "fading_memories",
@@ -73,11 +82,11 @@
     ,
     
         {
-        "title"    : "Peaceful Hike",
-        "href"     : "/music/peaceful_hike",
-        "filename" : "peaceful_hike",
-        "resource" : "true",
-        "date"     : "2023-05-04 00:00:00 -0700"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -127,11 +136,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Peaceful Hike",
+        "href"     : "/music/peaceful_hike",
+        "filename" : "peaceful_hike",
+        "resource" : "true",
+        "date"     : "2023-05-04 00:00:00 -0700"
         }
     ,
     
