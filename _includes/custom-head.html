@@ -26,7 +26,7 @@
           console.log("[search.json loaded for homepage posts]");
 
           // let today = new Date().toISOString().slice(0, 10)
-          var today = '{{ site.time }}'
+          var today = "{{ site.time }}"
           let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
