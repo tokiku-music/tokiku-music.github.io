@@ -82,11 +82,20 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Inazuma",
+        "href"     : "/music/inazuma",
+        "filename" : "inazuma",
+        "resource" : "true",
+        "date"     : "2023-06-15 00:00:00 -0700"
+        }
+    ,
+    
+        {
+        "title"    : "Peaceful Hike",
+        "href"     : "/music/peaceful_hike",
+        "filename" : "peaceful_hike",
+        "resource" : "true",
+        "date"     : "2023-05-04 00:00:00 -0700"
         }
     ,
     
@@ -136,11 +145,11 @@
     ,
     
         {
-        "title"    : "Peaceful Hike",
-        "href"     : "/music/peaceful_hike",
-        "filename" : "peaceful_hike",
-        "resource" : "true",
-        "date"     : "2023-05-04 00:00:00 -0700"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
