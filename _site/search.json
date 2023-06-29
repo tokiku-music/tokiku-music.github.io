@@ -19,6 +19,15 @@
     ,
     
         {
+        "title"    : "Across Dimming Asterisms",
+        "href"     : "/music/across_dimming_asterisms",
+        "filename" : "across_dimming_asterisms",
+        "resource" : "true",
+        "date"     : "2023-06-29 07:40:00 +0000"
+        }
+    ,
+    
+        {
         "title"    : "Baizhu: Curing the Root Cause",
         "href"     : "/music/baizhu_curing_the_root_cause",
         "filename" : "baizhu_curing_the_root_cause",
@@ -82,11 +91,11 @@
     ,
     
         {
-        "title"    : "Inazuma",
-        "href"     : "/music/inazuma",
-        "filename" : "inazuma",
-        "resource" : "true",
-        "date"     : "2023-06-15 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -145,11 +154,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Inazuma",
+        "href"     : "/music/inazuma",
+        "filename" : "inazuma",
+        "resource" : "true",
+        "date"     : "2023-06-15 07:00:00 +0000"
         }
     ,
     
