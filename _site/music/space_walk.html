@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Space Walk | Tokiku Music</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Space Walk" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An archive of all the free music resources created by Tokiku." />
+<meta property="og:description" content="An archive of all the free music resources created by Tokiku." />
+<link rel="canonical" href="http://localhost:4000/music/space_walk" />
+<meta property="og:url" content="http://localhost:4000/music/space_walk" />
+<meta property="og:site_name" content="Tokiku Music" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-07-06T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Space Walk" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-07-06T00:00:00-07:00","datePublished":"2023-07-06T00:00:00-07:00","description":"An archive of all the free music resources created by Tokiku.","headline":"Space Walk","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/music/space_walk"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/favicon.ico"}},"url":"http://localhost:4000/music/space_walk"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tokiku Music" />
+
+<!-- favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!--random page generator-->
+<!--  -->
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript">
+  function generateHomepagePosts()
+  {
+      $.getJSON("/search.json", function(data) {
+          console.log("[search.json loaded for homepage posts]");
+
+          // let today = new Date().toISOString().slice(0, 10)
+          var today = "2023-07-12 22:53:37 -0700"
+          let data_set = data.filter(data => data.resource == "true" && data.date <= today);
+
+          // sort newest to oldest
+          data_set.sort((a, b) => {
+            if (a.date < b.date)
+              return 1;
+            if (a.date > b.date)
+              return -1;
+            return 0;
+          });
+
+          var dataNum = data_set.length;
+
+          var dataNewestPosts = data_set;
+          var newestPostsCount = dataNewestPosts.length;
+          var newestPosts = dataNewestPosts;
+          var counterNewest = 0;
+          var numberOfNewestPosts = 1; // value cannot exceed dataNum
+
+          var dataRandomPosts = dataNewestPosts.slice(numberOfNewestPosts, newestPostsCount);
+          var randomPostsCount = dataRandomPosts.length;
+          var randomPosts = dataRandomPosts;
+
+          var randomIndexUsed = [];
+          var counterRandom = 0;
+          var numberOfRandomPosts = 1; // value cannot exceed dataNum - numberOfNewestPosts
+
+          var divNewestPosts = $("#newest_posts")
+          var divRandomPosts = $("#random_posts");
+
+          // random posts
+          while (counterRandom < numberOfRandomPosts)
+          {
+              var randomIndex = Math.floor(Math.random() * randomPostsCount);
+                
+              if (randomIndexUsed.indexOf(randomIndex) == "-1")
+              {
+                  var postHREF = randomPosts[randomIndex].href;
+                  var postTitle = randomPosts[randomIndex].title;
+                  var postFileName = randomPosts[randomIndex].filename;
+
+                  if (counterRandom == (numberOfRandomPosts - 1))
+                  {
+                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  }
+                  else
+                  {
+                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  }
+
+                  randomIndexUsed.push(randomIndex);
+
+                  counterRandom++;
+              }
+          }
+
+          // newest posts
+          while (counterNewest < numberOfNewestPosts)
+          {
+              newestIndex = counterNewest;
+
+              var postHREF = newestPosts[newestIndex].href;
+              var postTitle = newestPosts[newestIndex].title;
+              var postFileName = newestPosts[newestIndex].filename;
+
+              if (counterNewest == (numberOfNewestPosts - 1))
+              {
+                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+              }
+              else
+              {
+                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+              }
+
+              counterNewest++;
+          }
+      });
+  }
+
+
+
+  $(document).ready(function() {
+      generateHomepagePosts();
+  });
+
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/"><img class="brand-image" src="/channel_logo.jpg"/>Tokiku Music</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/music/">All Music</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Space Walk</h1>
+    <h3><i>Honkai: Star Rail</i></h3>
+  </header>
+  
+  <div class="post-content">
+      <div class="post-content">    
+
+    <p>The main theme for the Master Control Zone in the Herta Space Station.</p>
+
+  
+    <p>
+        Listen to the arrangement using the audio controls below,
+        or watch the video tutorial <a href="https://youtu.be/hOdMdoZ9dcc" target="_blank" rel="noreferrer noopener"> here</a>.
+    </p>
+
+    
+
+    <p>
+      <audio controls>
+        <source src="/music/space_walk/space_walk.mp3" type="audio/mpeg">
+      </audio>
+    </p>
+    
+    <p>
+      <a download href="/music/space_walk/space_walk.pdf">Download PDF</a>
+    </p>
+
+
+    <p>
+      <!-- <iframe src="/music/space_walk/space_walk.pdf#toolbar=1" type="application/pdf" width="100%" height="800px"> -->
+        <!-- <p>Your browser does not support online PDF viewing.</p> -->
+      <!-- </iframe> -->
+
+      <!-- <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://tokiku-music.github.io/music/space_walk/space_walk.pdf" style="width:100%; height:800px;" frameborder="0">
+      </iframe> -->
+
+      <iframe id="pdf-js-viewer" src="/lib/pdf-js/web/viewer.html?file=/music/space_walk/space_walk.pdf" title="webviewer" frameborder="0" width="100%" height="800px"></iframe>
+    </p>
+  </div>
+
+
+  </div>
+
+  
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      
+      <div class="footer-col">
+        <p>An archive of all the free music resources created by Tokiku.
+</p>
+      </div>
+      
+      <div class="footer-col-3">
+        <p class="channel-link">
+          <a href="https://youtube.com/@Tokiku_" target="_blank" rel="noreferrer noopener">
+            <svg class="svg-icon red">
+              <use xlink:href="/assets/minima-social-icons.svg#youtube" fill="red"></use>
+            </svg><span>YouTube channel</span>
+          </a>
+        </p>
+      </div>
+      
+    </div>
+<!--
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://youtube.com/@Tokiku_" target="_blank" title="youtube">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#youtube"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+-->
+
+  </div>
+
+</footer>
+</body>
+
+</html>
