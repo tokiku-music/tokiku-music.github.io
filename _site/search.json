@@ -55,6 +55,15 @@
     ,
     
         {
+        "title"    : "Faded Sun",
+        "href"     : "/music/faded_sun",
+        "filename" : "faded_sun",
+        "resource" : "true",
+        "date"     : "2023-07-20 07:00:00 +0000"
+        }
+    ,
+    
+        {
         "title"    : "Fading Memories",
         "href"     : "/music/fading_memories",
         "filename" : "fading_memories",
@@ -100,11 +109,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Maidens of Sanctity",
+        "href"     : "/music/maidens_of_sanctity",
+        "filename" : "maidens_of_sanctity",
+        "resource" : "true",
+        "date"     : "2023-07-13 07:00:00 +0000"
         }
     ,
     
@@ -172,11 +181,11 @@
     ,
     
         {
-        "title"    : "Maidens of Sanctity",
-        "href"     : "/music/maidens_of_sanctity",
-        "filename" : "maidens_of_sanctity",
-        "resource" : "true",
-        "date"     : "2023-07-13 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
