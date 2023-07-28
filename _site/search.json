@@ -55,6 +55,15 @@
     ,
     
         {
+        "title"    : "Euphoric Ride",
+        "href"     : "/music/euphoric_ride",
+        "filename" : "euphoric_ride",
+        "resource" : "true",
+        "date"     : "2023-07-27 07:00:00 +0000"
+        }
+    ,
+    
+        {
         "title"    : "Faded Sun",
         "href"     : "/music/faded_sun",
         "filename" : "faded_sun",
@@ -100,11 +109,11 @@
     ,
     
         {
-        "title"    : "Inazuma",
-        "href"     : "/music/inazuma",
-        "filename" : "inazuma",
-        "resource" : "true",
-        "date"     : "2023-06-15 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -181,11 +190,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Inazuma",
+        "href"     : "/music/inazuma",
+        "filename" : "inazuma",
+        "resource" : "true",
+        "date"     : "2023-06-15 07:00:00 +0000"
         }
     ,
     
