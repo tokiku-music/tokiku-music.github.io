@@ -10,4 +10,4 @@ file_name: space_walk
 video_link: "https://youtu.be/hOdMdoZ9dcc"
 ---
 
-The main theme for the Master Control Zone in the Herta Space Station.
+The main theme for the Master Control Zone in Herta Space Station.
