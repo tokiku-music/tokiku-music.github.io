@@ -46,6 +46,15 @@
     ,
     
         {
+        "title"    : "Dreamlike Reflection",
+        "href"     : "/music/dreamlike_reflection",
+        "filename" : "dreamlike_reflection",
+        "resource" : "true",
+        "date"     : "2023-08-10 07:00:00 +0000"
+        }
+    ,
+    
+        {
         "title"    : "Embers",
         "href"     : "/music/embers",
         "filename" : "embers",
@@ -177,6 +186,15 @@
         "filename" : "thunderings_of_the_merciless",
         "resource" : "true",
         "date"     : "2023-03-23 00:00:00 -0700"
+        }
+    ,
+    
+        {
+        "title"    : "Thundering Chariot",
+        "href"     : "/music/thundering_chariot",
+        "filename" : "thundering_chariot",
+        "resource" : "true",
+        "date"     : "2023-08-17 00:00:00 +0000"
         }
     ,
     
