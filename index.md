@@ -16,7 +16,7 @@ title: Home
 
   <div>
     <p>Welcome to my sheet music library!</p>
-    <p>All sheet music and sound files are free to download.</p>
+    <p>All <a href="/music">sheet music</a> and sound files are free to download.</p>
   </div>
 
    
