@@ -127,11 +127,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Inazuma",
+        "href"     : "/music/inazuma",
+        "filename" : "inazuma",
+        "resource" : "true",
+        "date"     : "2023-06-15 07:00:00 +0000"
         }
     ,
     
@@ -159,6 +159,15 @@
         "filename" : "rondeau_des_fleurs_et_des_rapieres",
         "resource" : "true",
         "date"     : "2023-08-31 07:00:00 +0000"
+        }
+    ,
+    
+        {
+        "title"    : "Serene Stroll",
+        "href"     : "/music/serene_stroll",
+        "filename" : "serene_stroll",
+        "resource" : "true",
+        "date"     : "2023-09-14 07:00:00 +0000"
         }
     ,
     
@@ -226,11 +235,11 @@
     ,
     
         {
-        "title"    : "Inazuma",
-        "href"     : "/music/inazuma",
-        "filename" : "inazuma",
-        "resource" : "true",
-        "date"     : "2023-06-15 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
