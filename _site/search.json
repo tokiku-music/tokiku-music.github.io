@@ -136,11 +136,11 @@
     ,
     
         {
-        "title"    : "Maidens of Sanctity",
-        "href"     : "/music/maidens_of_sanctity",
-        "filename" : "maidens_of_sanctity",
-        "resource" : "true",
-        "date"     : "2023-07-13 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -150,6 +150,15 @@
         "filename" : "peaceful_hike",
         "resource" : "true",
         "date"     : "2023-05-04 00:00:00 -0700"
+        }
+    ,
+    
+        {
+        "title"    : "Relaxation in Liyue",
+        "href"     : "/music/relaxation_in_liyue",
+        "filename" : "relaxation_in_liyue",
+        "resource" : "true",
+        "date"     : "2023-10-02 00:00:00 -0700"
         }
     ,
     
@@ -235,11 +244,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Maidens of Sanctity",
+        "href"     : "/music/maidens_of_sanctity",
+        "filename" : "maidens_of_sanctity",
+        "resource" : "true",
+        "date"     : "2023-07-13 07:00:00 +0000"
         }
     ,
     
