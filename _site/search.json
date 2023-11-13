@@ -136,11 +136,20 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Kindling",
+        "href"     : "/music/kindling",
+        "filename" : "kindling",
+        "resource" : "true",
+        "date"     : "2023-11-12 00:00:00 -0700"
+        }
+    ,
+    
+        {
+        "title"    : "Maidens of Sanctity",
+        "href"     : "/music/maidens_of_sanctity",
+        "filename" : "maidens_of_sanctity",
+        "resource" : "true",
+        "date"     : "2023-07-13 07:00:00 +0000"
         }
     ,
     
@@ -244,11 +253,11 @@
     ,
     
         {
-        "title"    : "Maidens of Sanctity",
-        "href"     : "/music/maidens_of_sanctity",
-        "filename" : "maidens_of_sanctity",
-        "resource" : "true",
-        "date"     : "2023-07-13 07:00:00 +0000"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
