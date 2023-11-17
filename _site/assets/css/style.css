@@ -335,4 +335,12 @@ table td { border: 1px solid var(--minima-table-border-color); }
 
 .site-title:hover { color: var(--minima-link-hover-color); text-decoration: none; }
 
+details { padding: 0px 0px 8px 0px; }
+
+details summary.level_one { cursor: pointer; width: 100%; padding: 3px 10px 3px 10px; font-style: italic; background-color: var(--minima-border-color-01); border-radius: 3px; }
+
+details summary.level_two { cursor: pointer; width: 50%; padding: 3px 10px 3px 20px; font-style: none; background-color: none; border-radius: 3px; }
+
+details ul { padding-left: 3px; }
+
 /*# sourceMappingURL=style.css.map */

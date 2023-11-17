@@ -5,7 +5,7 @@ permalink: /music/
 ---
 
 <div>
-  <p>All music pages available on this site are listed alphabetically below.
+  <p>All music pages available on this site are listed alphabetically by category below.
   </p>
   
 </div>
@@ -16,8 +16,9 @@ permalink: /music/
   {% assign sortedCats = site.category_list | sort %}
   {% assign sortedPages = site.pages | sort: 'title' | where_exp: "item", "item.date <= today" %}
   {% for cat in sortedCats %}
-    <h4> {{ cat }} </h4>
-    <ul id="music-list">
+    <details>
+    <summary class="level_one"> {{ cat }} </summary>
+    <ul id="music-list" style="list-style-type:circle;">
       {% for page in sortedPages %}
         {% if page.resource == true %}
             {% for pc in page.categories %}
@@ -28,6 +29,7 @@ permalink: /music/
         {% endif %}   <!-- resource-p -->
       {% endfor %}  <!-- page -->
     </ul>
+    </details>
   {% endfor %}  <!-- cat -->
     
 </div>

@@ -41,7 +41,7 @@
           console.log("[search.json loaded for homepage posts]");
 
           // let today = new Date().toISOString().slice(0, 10)
-          var today = "2023-11-12 19:03:04 -0800"
+          var today = "2023-11-16 16:07:20 -0800"
           let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
@@ -155,7 +155,7 @@
   
   <div class="post-content">
     <div>
-  <p>All music pages available on this site are listed alphabetically below.
+  <p>All music pages available on this site are listed alphabetically by category below.
   </p>
   
 </div>
@@ -166,8 +166,9 @@
   
   
   
-    <h4> Genshin Impact </h4>
-    <ul id="music-list">
+    <details>
+    <summary class="level_one"> Genshin Impact </summary>
+    <ul id="music-list" style="list-style-type:circle;">
       
         
             
@@ -354,9 +355,11 @@
            <!-- resource-p -->
         <!-- page -->
     </ul>
+    </details>
   
-    <h4> Honkai: Star Rail </h4>
-    <ul id="music-list">
+    <details>
+    <summary class="level_one"> Honkai: Star Rail </summary>
+    <ul id="music-list" style="list-style-type:circle;">
       
         
             
@@ -525,6 +528,7 @@
            <!-- resource-p -->
         <!-- page -->
     </ul>
+    </details>
     <!-- cat -->
     
 </div>

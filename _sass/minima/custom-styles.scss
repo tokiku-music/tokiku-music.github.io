@@ -30,3 +30,30 @@
     text-decoration: none;
   }
 }
+
+//Collapsible list
+details {
+  padding: 0px 0px 8px 0px; //top right bottom left
+}
+
+details summary.level_one {
+  cursor: pointer;
+  width: 100%;
+  padding: 3px 10px 3px 10px; //top right bottom left
+  font-style: italic;
+  background-color: $border-color-01;
+  border-radius: 3px;
+}
+
+details summary.level_two {
+  cursor: pointer;
+  width: 50%;
+  padding: 3px 10px 3px 20px; //top right bottom left
+  font-style: none;
+  background-color: none;
+  border-radius: 3px;
+}
+
+details ul {
+  padding-left: 3px;
+}
