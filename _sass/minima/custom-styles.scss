@@ -33,12 +33,12 @@
 
 //Collapsible list
 details {
+  width: 100%;
   padding: 0px 0px 8px 0px; //top right bottom left
 }
 
 details summary.level_one {
   cursor: pointer;
-  width: 100%;
   padding: 3px 10px 3px 10px; //top right bottom left
   font-style: italic;
   background-color: $border-color-01;
@@ -47,7 +47,7 @@ details summary.level_one {
 
 details summary.level_two {
   cursor: pointer;
-  width: 50%;
+  width: 50; //need to fix scaling behavior
   padding: 3px 10px 3px 20px; //top right bottom left
   font-style: none;
   background-color: none;
