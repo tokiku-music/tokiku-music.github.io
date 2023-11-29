@@ -109,6 +109,15 @@
     ,
     
         {
+        "title"    : "Fontaine",
+        "href"     : "/music/fontaine",
+        "filename" : "fontaine",
+        "resource" : "true",
+        "date"     : "2023-11-29 00:00:00 -0700"
+        }
+    ,
+    
+        {
         "title"    : "Halcyon Times",
         "href"     : "/music/halcyon_times",
         "filename" : "halcyon_times",
@@ -136,11 +145,11 @@
     ,
     
         {
-        "title"    : "Kindling",
-        "href"     : "/music/kindling",
-        "filename" : "kindling",
-        "resource" : "true",
-        "date"     : "2023-11-12 00:00:00 -0700"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -253,11 +262,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Kindling",
+        "href"     : "/music/kindling",
+        "filename" : "kindling",
+        "resource" : "true",
+        "date"     : "2023-11-12 00:00:00 -0700"
         }
     ,
     
