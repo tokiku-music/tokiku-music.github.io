@@ -145,11 +145,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Kindling",
+        "href"     : "/music/kindling",
+        "filename" : "kindling",
+        "resource" : "true",
+        "date"     : "2023-11-12 00:00:00 -0700"
         }
     ,
     
@@ -226,6 +226,15 @@
     ,
     
         {
+        "title"    : "Terrene Deliverance",
+        "href"     : "/music/terrene_deliverance",
+        "filename" : "terrene_deliverance",
+        "resource" : "true",
+        "date"     : "2023-12-14 07:30:00 +0000"
+        }
+    ,
+    
+        {
         "title"    : "Thunderings of the Merciless",
         "href"     : "/music/thunderings_of_the_merciless",
         "filename" : "thunderings_of_the_merciless",
@@ -262,11 +271,11 @@
     ,
     
         {
-        "title"    : "Kindling",
-        "href"     : "/music/kindling",
-        "filename" : "kindling",
-        "resource" : "true",
-        "date"     : "2023-11-12 00:00:00 -0700"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
