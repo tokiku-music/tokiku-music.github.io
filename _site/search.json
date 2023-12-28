@@ -73,6 +73,15 @@
     ,
     
         {
+        "title"    : "Everlasting Devotion",
+        "href"     : "/music/everlasting_devotion",
+        "filename" : "everlasting_devotion",
+        "resource" : "true",
+        "date"     : "2023-12-28 00:00:00 -0700"
+        }
+    ,
+    
+        {
         "title"    : "Faded Sun",
         "href"     : "/music/faded_sun",
         "filename" : "faded_sun",
@@ -145,11 +154,11 @@
     ,
     
         {
-        "title"    : "Kindling",
-        "href"     : "/music/kindling",
-        "filename" : "kindling",
-        "resource" : "true",
-        "date"     : "2023-11-12 00:00:00 -0700"
+        "title"    : "Home",
+        "href"     : "/",
+        "filename" : "",
+        "resource" : "",
+        "date"     : ""
         }
     ,
     
@@ -271,11 +280,11 @@
     ,
     
         {
-        "title"    : "Home",
-        "href"     : "/",
-        "filename" : "",
-        "resource" : "",
-        "date"     : ""
+        "title"    : "Kindling",
+        "href"     : "/music/kindling",
+        "filename" : "kindling",
+        "resource" : "true",
+        "date"     : "2023-11-12 00:00:00 -0700"
         }
     ,
     
