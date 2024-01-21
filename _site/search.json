@@ -28,15 +28,6 @@
     ,
     
         {
-        "title"    : "Baizhu: Curing the Root Cause",
-        "href"     : "/music/baizhu_curing_the_root_cause",
-        "filename" : "baizhu_curing_the_root_cause",
-        "resource" : "true",
-        "date"     : "2023-05-18 00:00:00 -0700"
-        }
-    ,
-    
-        {
         "title"    : "Bane of Ambitions",
         "href"     : "/music/bane_of_ambitions",
         "filename" : "bane_of_ambitions",
@@ -77,7 +68,7 @@
         "href"     : "/music/everlasting_devotion",
         "filename" : "everlasting_devotion",
         "resource" : "true",
-        "date"     : "2023-12-28 00:00:00 -0700"
+        "date"     : "2023-12-28 07:00:00 +0000"
         }
     ,
     
@@ -150,6 +141,15 @@
         "filename" : "inazuma",
         "resource" : "true",
         "date"     : "2023-06-15 07:00:00 +0000"
+        }
+    ,
+    
+        {
+        "title"    : "In the Wake of Rain",
+        "href"     : "/music/in_the_wake_of_rain",
+        "filename" : "in_the_wake_of_rain",
+        "resource" : "true",
+        "date"     : "2023-05-18 00:00:00 -0700"
         }
     ,
     
