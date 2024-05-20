@@ -16,7 +16,7 @@ permalink: /music/
   {% assign sortedCats = site.category_list | sort %}
   {% assign sortedPages = site.pages | sort: 'title' | where_exp: "item", "item.date <= today" %}
   {% for cat in sortedCats %}
-    <details>
+    <details open>
     <summary class="level_one"> {{ cat }} </summary>
     <ul id="music-list" style="list-style-type:circle;">
       {% for page in sortedPages %}
