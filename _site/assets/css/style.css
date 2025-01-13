@@ -343,7 +343,7 @@ details summary.level_two { cursor: pointer; padding: 3px 10px 3px 20px; font-st
 
 details ul { padding-left: 3px; }
 
-div.scroll-container { background-color: #f2f2f2; margin: 0; padding: 0; width: 100%; border: none; white-space: nowrap; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
+div.scroll-container { background-color: #f2f2f2; margin: 0; padding: 0; width: 100%; border: none; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
 
 div.scroll-container img { display: inline; padding: 0; width: 220px; margin: 3px; border: 1px solid #dbdbdb; }
 
