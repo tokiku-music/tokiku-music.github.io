@@ -10,6 +10,9 @@ description: > # this means to ignore newlines until "show_excerpts:"
 logo: favicon.ico
 google_analytics: "G-91FTL9QPJV"
 
+baseurl: /
+url: http://tokiku-music.github.io
+
 show_excerpts: false # set to true to show excerpts on the homepage
 future: false # restrict publication of future posts
 category_list: ["Genshin Impact", "Honkai: Star Rail"]
