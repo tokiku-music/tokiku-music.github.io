@@ -43,69 +43,59 @@
           var dataNewestPosts = data_set;
           var newestPostsCount = dataNewestPosts.length;
           var newestPosts = dataNewestPosts;
-          var counterNewest = 0;
-          var numberOfNewestPosts = 1; // value cannot exceed dataNum
+          var numberOfNewestPosts = 8; // value cannot exceed dataNum
 
           var dataRandomPosts = dataNewestPosts.slice(numberOfNewestPosts, newestPostsCount);
           var randomPostsCount = dataRandomPosts.length;
           var randomPosts = dataRandomPosts;
 
           var randomIndexUsed = [];
-          var counterRandom = 0;
-          var numberOfRandomPosts = 1; // value cannot exceed dataNum - numberOfNewestPosts
+          var numberOfRandomPosts = 8; // value cannot exceed dataNum - numberOfNewestPosts
 
-          var divNewestPosts = $("#newest_posts")
+          var divNewestPosts = $("#newest_posts");
           var divRandomPosts = $("#random_posts");
 
-          // random posts
-          while (counterRandom < numberOfRandomPosts)
+          compilePageList(newestPosts, numberOfNewestPosts, newestPostsCount, divNewestPosts, random=false)
+          compilePageList(randomPosts, numberOfRandomPosts, randomPostsCount, divRandomPosts)
+
+        });
+  }
+
+  // list compiler function
+  function compilePageList(posts, numberOfPosts, postsCount, divPosts, random=true)
+  {
+    counter = 0;
+    indexUsed = [];
+    while (counter < numberOfPosts)
+      {
+      if (random==true)
+      {  
+        var index = Math.floor(Math.random() * postsCount);
+      }else{
+        var index = counter;
+      }
+            
+          if (indexUsed.indexOf(index) == "-1")
           {
-              var randomIndex = Math.floor(Math.random() * randomPostsCount);
-                
-              if (randomIndexUsed.indexOf(randomIndex) == "-1")
+              var postHREF = posts[index].href;
+              var postTitle = posts[index].title;
+              var postFileName = posts[index].filename;
+
+              if (counter == (numberOfPosts - 1))
               {
-                  var postHREF = randomPosts[randomIndex].href;
-                  var postTitle = randomPosts[randomIndex].title;
-                  var postFileName = randomPosts[randomIndex].filename;
-
-                  if (counterRandom == (numberOfRandomPosts - 1))
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
-                  }
-                  else
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
-                  }
-
-                  randomIndexUsed.push(randomIndex);
-
-                  counterRandom++;
-              }
-          }
-
-          // newest posts
-          while (counterNewest < numberOfNewestPosts)
-          {
-              newestIndex = counterNewest;
-
-              var postHREF = newestPosts[newestIndex].href;
-              var postTitle = newestPosts[newestIndex].title;
-              var postFileName = newestPosts[newestIndex].filename;
-
-              if (counterNewest == (numberOfNewestPosts - 1))
-              {
-                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  divPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png">' + '</a>');
               }
               else
               {
-                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  divPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png">' + '</a>');
               }
 
-              counterNewest++;
-          }
-      });
-  }
+              indexUsed.push(index);
 
+              counter++;
+          }
+      }
+  }
 
 
   $(document).ready(function() {

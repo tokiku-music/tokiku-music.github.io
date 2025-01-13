@@ -13,42 +13,18 @@ layout: default
 
   <div class="row:after">
 
-    <div class="column">
-      <h2> Featured </h2>
-      <div id="random_posts">
+    <div class="row:after">
+      <h2> Recently Added </h2>
+      <div id="newest_posts" class="scroll-container">
       </div>
-      <!-- {% for p in site.pages %}
-        {% if p.resource == true %}
-          {% if p.title == page.featured %}
-            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
-            </a>
-          {% endif %}
-        {% endif %}
-      {% endfor %} -->
     </div>
-    
-    <div class="column">
-      <h2> Recent </h2>
-      <div id="newest_posts">
+
+    <p></p>
+
+    <div class="row:after">
+      <h2> Featured </h2>
+      <div id="random_posts" class="scroll-container">
       </div>
-      <!-- {% for p in site.pages %}
-        {% if p.resource == true %}
-          {% if p.title == page.recent %}
-            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
-            </a>
-          {% endif %}
-        {% endif %}
-      {% endfor %} -->
-      
-      <!-- {% assign sortedNew = site.pages | sort: 'date' %}
-      {% for p in sortedNew %}
-        {% if p.resource == true %}
-          {% if p.title == page.recent %}
-            <a href="{{ p.url }}"><img alt="{{p.title}}" src="{{p.url}}/{{p.file_name}}.png" style="border: 1px #a1a1a1 solid;">
-            </a>
-          {% endif %}
-        {% endif %}
-      {% endfor %} -->
     </div>
     
   </div>

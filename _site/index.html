@@ -9,16 +9,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An archive of all the free music resources created by Tokiku." />
 <meta property="og:description" content="An archive of all the free music resources created by Tokiku." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Tokiku Music" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"An archive of all the free music resources created by Tokiku.","headline":"Home","name":"Tokiku Music","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/favicon.ico"}},"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"An archive of all the free music resources created by Tokiku.","headline":"Home","name":"Tokiku Music","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/favicon.ico"}},"url":"/"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Tokiku Music" />
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tokiku Music" />
 
 <!-- favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -41,7 +39,7 @@
           console.log("[search.json loaded for homepage posts]");
 
           // let today = new Date().toISOString().slice(0, 10)
-          var today = "2025-01-12 22:37:58 -0800"
+          var today = "2025-01-13 00:45:06 -0800"
           let data_set = data.filter(data => data.resource == "true" && data.date <= today);
 
           // sort newest to oldest
@@ -58,69 +56,59 @@
           var dataNewestPosts = data_set;
           var newestPostsCount = dataNewestPosts.length;
           var newestPosts = dataNewestPosts;
-          var counterNewest = 0;
-          var numberOfNewestPosts = 1; // value cannot exceed dataNum
+          var numberOfNewestPosts = 8; // value cannot exceed dataNum
 
           var dataRandomPosts = dataNewestPosts.slice(numberOfNewestPosts, newestPostsCount);
           var randomPostsCount = dataRandomPosts.length;
           var randomPosts = dataRandomPosts;
 
           var randomIndexUsed = [];
-          var counterRandom = 0;
-          var numberOfRandomPosts = 1; // value cannot exceed dataNum - numberOfNewestPosts
+          var numberOfRandomPosts = 8; // value cannot exceed dataNum - numberOfNewestPosts
 
-          var divNewestPosts = $("#newest_posts")
+          var divNewestPosts = $("#newest_posts");
           var divRandomPosts = $("#random_posts");
 
-          // random posts
-          while (counterRandom < numberOfRandomPosts)
+          compilePageList(newestPosts, numberOfNewestPosts, newestPostsCount, divNewestPosts, random=false)
+          compilePageList(randomPosts, numberOfRandomPosts, randomPostsCount, divRandomPosts)
+
+        });
+  }
+
+  // list compiler function
+  function compilePageList(posts, numberOfPosts, postsCount, divPosts, random=true)
+  {
+    counter = 0;
+    indexUsed = [];
+    while (counter < numberOfPosts)
+      {
+      if (random==true)
+      {  
+        var index = Math.floor(Math.random() * postsCount);
+      }else{
+        var index = counter;
+      }
+            
+          if (indexUsed.indexOf(index) == "-1")
           {
-              var randomIndex = Math.floor(Math.random() * randomPostsCount);
-                
-              if (randomIndexUsed.indexOf(randomIndex) == "-1")
+              var postHREF = posts[index].href;
+              var postTitle = posts[index].title;
+              var postFileName = posts[index].filename;
+
+              if (counter == (numberOfPosts - 1))
               {
-                  var postHREF = randomPosts[randomIndex].href;
-                  var postTitle = randomPosts[randomIndex].title;
-                  var postFileName = randomPosts[randomIndex].filename;
-
-                  if (counterRandom == (numberOfRandomPosts - 1))
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
-                  }
-                  else
-                  {
-                      divRandomPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
-                  }
-
-                  randomIndexUsed.push(randomIndex);
-
-                  counterRandom++;
-              }
-          }
-
-          // newest posts
-          while (counterNewest < numberOfNewestPosts)
-          {
-              newestIndex = counterNewest;
-
-              var postHREF = newestPosts[newestIndex].href;
-              var postTitle = newestPosts[newestIndex].title;
-              var postFileName = newestPosts[newestIndex].filename;
-
-              if (counterNewest == (numberOfNewestPosts - 1))
-              {
-                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  divPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png">' + '</a>');
               }
               else
               {
-                  divNewestPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png" style="border: 1px #a1a1a1 solid;">' + '</a>');
+                  divPosts.append('<a href="' + postHREF + '">' + '<img alt="' + postTitle + '" src="' + postHREF + '/' + postFileName + '.png">' + '</a>');
               }
 
-              counterNewest++;
-          }
-      });
-  }
+              indexUsed.push(index);
 
+              counter++;
+          }
+      }
+  }
 
 
   $(document).ready(function() {
@@ -150,7 +138,7 @@
 
   <div>
     <p>Welcome to my sheet music library!</p>
-    <p>All <a href="/music">sheet music</a> and sound files are free to download.</p>
+    <p>All sheet music and sound files are free to download. A complete list of songs can be found <a href="/music">here</a>.</p>
   </div>
 
    
@@ -162,501 +150,18 @@
 
   <div class="row:after">
 
-    <div class="column">
-      <h2> Featured </h2>
-      <div id="random_posts">
+    <div class="row:after">
+      <h2> Recently Added </h2>
+      <div id="newest_posts" class="scroll-container">
       </div>
-      <!-- 
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-       -->
     </div>
-    
-    <div class="column">
-      <h2> Recent </h2>
-      <div id="newest_posts">
+
+    <p></p>
+
+    <div class="row:after">
+      <h2> Featured </h2>
+      <div id="random_posts" class="scroll-container">
       </div>
-      <!-- 
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-       -->
-      
-      <!-- 
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-       -->
     </div>
     
   </div>
@@ -682,7 +187,7 @@
           <a href="https://youtube.com/@Tokiku_" target="_blank" rel="noreferrer noopener">
             <svg class="svg-icon red">
               <use xlink:href="/assets/minima-social-icons.svg#youtube" fill="red"></use>
-            </svg><span>YouTube channel</span>
+            </svg><span>YouTube</span>
           </a>
         </p>
       </div>
