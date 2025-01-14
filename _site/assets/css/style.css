@@ -184,9 +184,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .highlighter-rouge .highlight { background: var(--minima-code-background-color); }
 
 /** Wrapper */
-.wrapper { max-width: calc(800px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
+.wrapper { max-width: calc(1000px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
 
-@media screen and (min-width: 800px) { .wrapper { max-width: calc(800px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
+@media screen and (min-width: 1000px) { .wrapper { max-width: calc(1000px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
 
 /** Clearfix */
 .wrapper:after { content: ""; display: table; clear: both; }
@@ -211,7 +211,7 @@ table th { background-color: var(--minima-table-header-bg-color); border: 1px so
 
 table td { border: 1px solid var(--minima-table-border-color); }
 
-@media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
+@media screen and (max-width: 1000px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
 
 /** Site header */
 .site-header { border-top: 5px solid var(--minima-border-color-03); border-bottom: 1px solid var(--minima-border-color-01); min-height: 55.95px; line-height: 54px; position: relative; }
@@ -259,7 +259,7 @@ table td { border: 1px solid var(--minima-table-border-color); }
 
 .footer-col-3 { width: calc(100% - (30px / 2)); text-align: right; }
 
-@media screen and (min-width: 800px) { .footer-col-1 { width: calc(35% - (30px / 2)); } .footer-col-2 { width: calc(20% - (30px / 2)); } .footer-col-3 { width: calc(45% - (30px / 2)); } }
+@media screen and (min-width: 1000px) { .footer-col-1 { width: calc(35% - (30px / 2)); } .footer-col-2 { width: calc(20% - (30px / 2)); } .footer-col-3 { width: calc(45% - (30px / 2)); } }
 
 @media screen and (min-width: 600px) { .footer-col-wrapper { display: flex; } .footer-col { width: calc(100% - (30px / 2)); padding: 0 15px; } .footer-col:first-child { padding-right: 15px; padding-left: 0; } .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
 
@@ -283,7 +283,7 @@ table td { border: 1px solid var(--minima-table-border-color); }
 
 .post-title, .post-content h1 { font-size: 2.625rem; letter-spacing: -1px; line-height: 1.15; }
 
-@media screen and (min-width: 800px) { .post-title, .post-content h1 { font-size: 2.625rem; } }
+@media screen and (min-width: 1000px) { .post-title, .post-content h1 { font-size: 2.625rem; } }
 
 .post-content { margin-bottom: 30px; }
 
@@ -291,11 +291,11 @@ table td { border: 1px solid var(--minima-table-border-color); }
 
 .post-content h2 { font-size: 1.75rem; }
 
-@media screen and (min-width: 800px) { .post-content h2 { font-size: 2rem; } }
+@media screen and (min-width: 1000px) { .post-content h2 { font-size: 2rem; } }
 
 .post-content h3 { font-size: 1.375rem; }
 
-@media screen and (min-width: 800px) { .post-content h3 { font-size: 1.625rem; } }
+@media screen and (min-width: 1000px) { .post-content h3 { font-size: 1.625rem; } }
 
 .post-content h4 { font-size: 1.25rem; }
 
@@ -323,7 +323,7 @@ table td { border: 1px solid var(--minima-table-border-color); }
 .pagination li div.pager-edge { color: var(--minima-border-color-01); border: 1px dashed; }
 
 /** Grid helpers */
-@media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
+@media screen and (min-width: 1000px) { .one-half { width: calc(50% - (30px / 2)); } }
 
 /** Multiple columns */
 .column { float: left; padding: 0px 20px 0px 5px; width: 40%; }
@@ -343,8 +343,8 @@ details summary.level_two { cursor: pointer; padding: 3px 10px 3px 20px; font-st
 
 details ul { padding-left: 3px; }
 
-div.scroll-container { background-color: #f2f2f2; margin: 0; padding: 0; width: 100%; border: none; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
+div.scroll-container { background-color: var(--minima-code-background-color); margin: 0; padding: 0; width: 100%; border: none; white-space: nowrap; overflow-x: auto; scrollbar-width: none; }
 
-div.scroll-container img { display: inline; padding: 0; width: 220px; margin: 3px; border: 1px solid #dbdbdb; }
+div.scroll-container img { display: inline; padding: 0; width: 220px; margin: 3px; border: 1px solid var(--minima-border-color-02); }
 
 /*# sourceMappingURL=style.css.map */

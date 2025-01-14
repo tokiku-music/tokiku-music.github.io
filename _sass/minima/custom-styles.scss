@@ -60,7 +60,7 @@ details ul {
 
 //Scroll container
 div.scroll-container {
-  background-color: #f2f2f2;
+  background-color: $code-background-color; //#f2f2f2;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -76,5 +76,5 @@ div.scroll-container img {
   padding: 0;
   width: 220px;
   margin: 3px;
-  border: 1px solid #dbdbdb;
+  border: 1px solid $border-color-02; //#dbdbdb;
 }
